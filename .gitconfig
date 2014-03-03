@@ -1,0 +1,20 @@
+[alias]
+	lg = log --graph --pretty=format:'%Cred%h%Creset - %C(bold red)%an%Creset -%C(bold yellow)%d%Creset %s %C(bold green)(%cr)%Creset' --abbrev-commit --date=relative -20
+	sd = svn dcommit
+	sr = svn rebase
+	st = status
+	co = checkout
+        ci = commit
+	pr = pull --rebase
+[user]
+	name =
+	email = 
+[color]
+	branch = auto
+	diff = auto
+	interactive = auto
+	status = auto
+[merge]
+	tool = opendiff
+[push]
+	default = current
