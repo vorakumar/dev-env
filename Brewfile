@@ -81,4 +81,4 @@ cask 'thunderbird-beta'
 cask 'vlc'
 
 cask 'visual-studio-code'
-
+cask 'sophos-anti-virus-home-edition'
